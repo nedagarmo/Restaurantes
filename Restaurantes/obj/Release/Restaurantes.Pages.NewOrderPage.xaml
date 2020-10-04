@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+			 x:Class="Restaurantes.NewOrderPage" Title="Nueva Orden" Icon="symbol.png">
+	<ContentPage.Content>
+		<ScrollView>
+			<StackLayout Padding="10,30,10,10" Spacing="10">
+				<StackLayout Orientation="Horizontal">
+					<Label Text="Mesa" HorizontalOptions="Start" VerticalOptions="Center" />
+					<Entry x:Name="txtMesa" Placeholder="" HorizontalOptions="FillAndExpand" VerticalOptions="Center" />
+					<Button x:Name="btnAgregar" BackgroundColor="Green" TextColor="White" Text="+ Agregar Plato" HorizontalOptions="FillAndExpand" VerticalOptions="Center" />
+				</StackLayout>
+				<StackLayout x:Name="slButtons" Orientation="Horizontal">
+					<Button x:Name="btnGuardar" BackgroundColor="Green" TextColor="White" Text="Enviar Orden" HorizontalOptions="FillAndExpand" VerticalOptions="Center" />
+				</StackLayout>
+				<ActivityIndicator x:Name="aiProcesando" HorizontalOptions="Center" VerticalOptions="Center" />
+				<ListView x:Name="lvPlatos" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />
+			</StackLayout>
+		</ScrollView>
+	</ContentPage.Content>
+</ContentPage>

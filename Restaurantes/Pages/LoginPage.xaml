@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Restaurantes.LoginPage" Title="NPOS Restaurantes" Icon="symbol.png">
+	<ContentPage.Content>
+		<ScrollView>
+			<StackLayout Padding="10,30,10,10" Spacing="10">
+				<Image Source="logo.png" />
+				<Label Text="Iniciar Sesión" HorizontalOptions="Center" VerticalOptions="Center" />
+				<ActivityIndicator x:Name="aiProcesando" HorizontalOptions="Center" VerticalOptions="Center" />
+				<Label Text="Usuario" HorizontalOptions="Start" VerticalOptions="Center" />
+				<Entry x:Name="txtUsuario" Placeholder="Ingrese Usuario" HorizontalOptions="FillAndExpand" VerticalOptions="Center" />
+				<Label Text="Contraseña" HorizontalOptions="Start" VerticalOptions="Center" />
+				<Entry x:Name="txtClave" Placeholder="Ingrese Clave" IsPassword="true" HorizontalOptions="FillAndExpand" VerticalOptions="Center" />
+				<Label Text="Código Empresa" HorizontalOptions="Start" VerticalOptions="Center" />
+				<Entry x:Name="txtCodigo" Placeholder="Ingrese Código de Verificación" HorizontalOptions="FillAndExpand" VerticalOptions="Center" />
+				<Button x:Name="btnEntrar" Text="Ingresar" BackgroundColor="Green" TextColor="White" HorizontalOptions="FillAndExpand" VerticalOptions="Center" />
+			</StackLayout>
+		</ScrollView>
+	</ContentPage.Content>
+</ContentPage>

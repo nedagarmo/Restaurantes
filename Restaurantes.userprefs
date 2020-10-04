@@ -1,0 +1,26 @@
+﻿<Properties StartupItem="Droid/Restaurantes.Droid.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Restaurantes/Pages/LoginPage.xaml.cs">
+    <Files>
+      <File FileName="Restaurantes/Functions/Comunication.cs" Line="73" Column="63" />
+      <File FileName="Restaurantes/Pages/LoginPage.xaml.cs" Line="106" Column="118" />
+      <File FileName="Restaurantes/Functions/Enviroment.cs" Line="1" Column="1" />
+      <File FileName="Restaurantes/Store/DataAccess.cs" Line="16" Column="30" />
+      <File FileName="Restaurantes/Functions/Security.cs" Line="1" Column="1" />
+      <File FileName="Restaurantes/Store/Login.cs" Line="12" Column="41" />
+      <File FileName="Restaurantes/Pages/ViewOrderPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Restaurantes/Pages/ViewOrderPage.xaml" Line="1" Column="1" />
+      <File FileName="Restaurantes/Pages/OrderPage.xaml" Line="1" Column="1" />
+      <File FileName="Restaurantes/Pages/OrderPage.xaml.cs" Line="9" Column="3" />
+      <File FileName="Restaurantes/Pages/NewOrderPage.xaml.cs" Line="73" Column="44" />
+      <File FileName="Restaurantes/Pages/NewOrderPage.xaml" Line="11" Column="19" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Restaurantes.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.039DA500-7766-4770-B523-D666B36D0577" />
+  <MonoDevelop.Ide.ItemProperties.Restaurantes.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus 5 (KitKat)" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <AuthorInfo Name="Nelson Garzón" Email="info@histrion.co" Copyright="2016" Company="Histrión Internacional" Trademark="TM" />
+</Properties>
